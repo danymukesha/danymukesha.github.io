@@ -1,0 +1,161 @@
+html {
+    background-color: #fefefe;
+	text-align: justify;
+font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+}
+body {
+    width: 600px;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    color: #454545;
+    margin: 2em auto;
+    max-width: 800px;
+    padding: 1em;
+    line-height: 1.6;
+    #text-align: justify;
+}
+
+h1 {
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    text-align: center;
+    padding-left: 1em;
+}
+h2 {
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    text-align: left;
+    cursor: pointer;
+    color: #000;
+}
+h3 {
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    text-align: center;
+    padding-left: 1em;
+}
+
+h2:hover {
+    color: #7d013e;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+.underline {
+    border-bottom: 1px dotted #000;
+    text-decoration: none;
+}
+.underline:hover {
+    color: #7d013e;
+}
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
+
+#cv {
+    text-align: left;
+}
+
+#cv ul {
+    padding: 0;
+}
+#cv li {
+    display: inline;
+    padding-left: 1em;
+}
+
+#publications p {
+    margin: 0px 0;
+}
+
+#publications li {
+    font-weight: 100;
+    margin: 10px 0;
+    text-align: left;
+}
+
+#software li {
+    font-weight: 100;
+    margin: 10px 0;
+    text-align: left;
+}
+
+#software a {
+    padding-left: 10px;
+}
+
+#footer {
+    margin-top: 50px;
+    text-align: center;
+}
+#footer ul {
+    padding: 0;
+}
+#footer li {
+    display: inline;
+    padding-left: 1em;
+}
+
+img {
+    width: 180px;
+    float: left;
+    padding-right: 1em;
+    padding-bottom: 0.25em;
+    opacity: 1;
+    filter: none;
+    filter: grayscale(45%);
+}
+
+
+body {
+    min-width: 320px;
+}
+
+.nav-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 6.5rem;
+    background: #fff;
+    z-index: 99;
+}
+
+.navbar-list {
+    list-style: none;
+    margin-bottom: 0;
+    
+	text-align: justify
+}
+
+.navbar-list-item {
+    margin-bottom: 0.5;
+    margin-right: 5px;
+    display: inline-block;
+    background: rgba(0, 0, 0, 0);
+}
+
+.navbar-list-item:last-of-type {
+    margin-right: 0;
+	
+}
+
+.navbar-link {
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 900;
+    letter-spacing: .2rem;
+    text-decoration: none;
+    line-height: 6.5rem;
+    color: #2;
+}
+.justified-text {
+    text-align: justify;
+    margin: 0;
+}
+
+
