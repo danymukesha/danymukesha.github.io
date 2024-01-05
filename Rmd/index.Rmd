@@ -3,7 +3,7 @@ title: "Dany Mukesha"
 image: "photo_833527.jpg"
 links:
   - label: LinkedIn
-    url: "https://www.linkedin.com/dany-mukesha"
+    url: "https://www.linkedin.com/in/dany-mukesha"
   - label: GitHub
     url: "https://github.com/danymukesha"
   - label: Email
@@ -34,15 +34,15 @@ My Research consists of identifying and validating body fluid biomarkers for ear
 
 **The University of Côte d'Azur** \| Nice, France
 
--   Ph.D. in Bioinformatics \| 2023 - 2025
+Ph.D. in Bioinformatics \| 2023 - 2025
 
 **The University of Tor Vergata** \| Rome, Italy
 
--   M.Sc. in Bioinformatics \| 2020 - 2023
+M.Sc. in Bioinformatics \| 2020 - 2023
 
 **The University of Sapienza** \| Rome, Italy
 
--   B.S. in Bioinformatics \| 2016 - 2019
+B.S. in Bioinformatics \| 2016 - 2019
 
 ## Credits
 
