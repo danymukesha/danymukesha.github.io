@@ -1,0 +1,36 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+Short R script used to create this homepage.
+
+```{r create_postcard, error=TRUE, results='hide', warning=FALSE}
+library(postcards)
+mainDir <- getwd()
+subDir <- "Rmd"
+dir.create(file.path(mainDir, "Rmd"))
+setwd(file.path(mainDir, subDir))
+postcards::create_postcard(file = "index.Rmd", template = "trestles")
+```
+
+Edit `index.Rmd`
+
+```{r render_markdown, results='hide'}
+setwd(mainDir)
+library(rmarkdown)
+
+rmarkdown::render("Rmd/index.Rmd", output_dir = ".")
+```
+
+Then `index.html` is generated.
+
+Finally displays the [homepage](https://danymukesha.github.io/).
