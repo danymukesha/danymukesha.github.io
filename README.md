@@ -18,7 +18,6 @@ subDir <- "Rmd"
 dir.create(file.path(mainDir, "Rmd"))
 setwd(file.path(mainDir, subDir))
 postcards::create_postcard(file = "index.Rmd", template = "trestles")
-## Error in rmarkdown::draft(file, template, "postcards", create_dir = create_dir, : The file 'index.Rmd' already exists.
 ```
 
 After editing `index.Rmd`, run then lines below.
