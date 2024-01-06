@@ -6,14 +6,13 @@ output: github_document
 
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>"
+  collapse = TRUE
 )
 ```
 
 Short R script used to create this homepage.
 
-```{r create_postcard, error=TRUE, results='hide', warning=FALSE}
+```{r create_postcard, error=TRUE, results='hide', warning=FALSE, message=FALSE}
 library(postcards)
 mainDir <- getwd()
 subDir <- "Rmd"
