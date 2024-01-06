@@ -12,6 +12,13 @@ knitr::opts_chunk$set(
 
 Short R script used to create this homepage.
 
+Install required packages
+
+```{r}
+if (!require("pacman")) install.packages("pacman")
+pacman::p_load(postcards, rmarkdown)
+```
+
 ```{r create_postcard, error=TRUE, results='hide', warning=FALSE, message=FALSE}
 library(postcards)
 mainDir <- getwd()
@@ -21,7 +28,7 @@ setwd(file.path(mainDir, subDir))
 postcards::create_postcard(file = "index.Rmd", template = "trestles")
 ```
 
-Edit `index.Rmd`
+After editing `index.Rmd`, run then lines below.
 
 ```{r render_markdown, results='hide'}
 setwd(mainDir)
@@ -30,6 +37,6 @@ library(rmarkdown)
 rmarkdown::render("Rmd/index.Rmd", output_dir = ".")
 ```
 
-Then `index.html` is generated.
+`index.html` is generated.
 
 Finally displays the [homepage](https://danymukesha.github.io/).

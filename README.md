@@ -3,6 +3,14 @@
 
 Short R script used to create this homepage.
 
+Install required packages
+
+``` r
+if (!require("pacman")) install.packages("pacman")
+## Loading required package: pacman
+pacman::p_load(postcards, rmarkdown)
+```
+
 ``` r
 library(postcards)
 mainDir <- getwd()
@@ -13,7 +21,7 @@ postcards::create_postcard(file = "index.Rmd", template = "trestles")
 ## Error in rmarkdown::draft(file, template, "postcards", create_dir = create_dir, : The file 'index.Rmd' already exists.
 ```
 
-Edit `index.Rmd`
+After editing `index.Rmd`, run then lines below.
 
 ``` r
 setwd(mainDir)
@@ -28,6 +36,6 @@ rmarkdown::render("Rmd/index.Rmd", output_dir = ".")
 ## Output created: index.html
 ```
 
-Then `index.html` is generated.
+`index.html` is generated.
 
 Finally displays the [homepage](https://danymukesha.github.io/).
