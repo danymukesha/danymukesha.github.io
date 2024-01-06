@@ -28,7 +28,7 @@ setwd(file.path(mainDir, subDir))
 postcards::create_postcard(file = "index.Rmd", template = "trestles")
 ```
 
-After editing `index.Rmd`, run then lines below.
+Edit`index.Rmd`
 
 ```{r render_markdown, results='hide'}
 setwd(mainDir)
@@ -37,6 +37,6 @@ library(rmarkdown)
 rmarkdown::render("Rmd/index.Rmd", output_dir = ".")
 ```
 
-`index.html` is generated.
+Then `index.html` is generated.
 
 Finally displays the [homepage](https://danymukesha.github.io/).
