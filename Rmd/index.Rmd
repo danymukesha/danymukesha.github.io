@@ -9,7 +9,7 @@ links:
   - label: Email
     url: "mailto:danymukesha@gmail.com"
 output:
-  postcards::trestles
+  postcards::solana
 ---
 
 ## Bio
