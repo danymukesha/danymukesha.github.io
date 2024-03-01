@@ -16,13 +16,16 @@ output:
 
 Hi!
 
-I am Dany, Member of Computational Biology Team at Firalis in Huningue since 2023. I am currently pursuing a Phd program funded by Marie Skłodowska-Curie Actions at The University of Côte d'Azur in Nice, France.
+I am Dany, Software Developer | Doctoral Researcher based in Rome, Italy. <br>
+I am currently pursuing a Phd program funded by Marie Skłodowska-Curie Actions 
+at The University of Côte d'Azur in Nice, France.
 
-My Research consists in identifying and validating body fluid biomarkers for the diagnosis of early-onset Alzheimer's disease.
+My Research consists in identifying and validating body fluid biomarkers 
+for the diagnosis of early-onset Alzheimer's disease.
 
 ## Experience
 
-**Catenate Group** \| Back-End/Tibco Developer \| 2021 - 2023
+**Catenate Group** \| Back-End/Tibco Developer \| 2021 - Present
 
 **Wayne State University** \| Bioinformatics Analyst \| 2022 - 2023
 
