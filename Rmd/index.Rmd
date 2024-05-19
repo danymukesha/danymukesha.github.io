@@ -15,7 +15,7 @@ output:
   postcards::onofre
 ---
 
-Ph.D. Student in Bioinformatics at University of Côte d’Azur, Admitted Autumn 2023
+Ph.D. Student in Bioinformatics at University of Côte d’Azur, Admitted Autumn 2023 
 
 ## Experience
 
