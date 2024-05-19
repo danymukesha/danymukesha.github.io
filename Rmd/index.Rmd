@@ -1,6 +1,9 @@
 ---
 title: "Dany Mukesha"
 image: "photo_833527.jpg"
+color1: "#5A59A3"
+color2: "#C66060"
+angle: 130
 links:
   - label: LinkedIn
     url: "https://www.linkedin.com/in/dany-mukesha"
@@ -9,27 +12,18 @@ links:
   - label: Email
     url: "mailto:danymukesha@gmail.com"
 output:
-  postcards::solana
+  postcards::onofre
 ---
 
-## Bio
-
-Hi!
-
-I am Dany, Software Developer | Doctoral Researcher based in Rome, Italy. <br>
-I am currently pursuing a Phd program funded by Marie Skłodowska-Curie Actions 
-at The University of Côte d'Azur in Nice, France.
-
-My Research consists in identifying and validating body fluid biomarkers 
-for the diagnosis of early-onset Alzheimer's disease.
+Ph.D. Student in Bioinformatics at University of Côte d’Azur, Admitted Autumn 2023
 
 ## Experience
 
-**Catenate Group** \| Back-End/Tibco Developer \| 2021 - Present
+**Catenate Group** \| Software Engineer \| 2021 - 2023
 
-**Wayne State University** \| Bioinformatics Analyst \| 2022 - 2023
+**Wayne State University** \| Bioinformatician \| 2022 - 2023
 
-**Manchester University** \| Research Assistant \| 2020 - 2021
+**Manchester University** \| Bioinformatician \| 2020 - 2021
 
 **Gemelli Hospital** \| Scientific Collaborator (Bioinformatics) \| 2020
 
