@@ -9,6 +9,8 @@ links:
     url: "https://www.linkedin.com/in/dany-mukesha"
   - label: GitHub
     url: "https://github.com/danymukesha"
+  - label: ORCID
+    url: "https://orcid.org/0009-0001-9514-751X"
   - label: Email
     url: "mailto:danymukesha@gmail.com"
 output:

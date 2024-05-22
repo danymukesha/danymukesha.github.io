@@ -76,11 +76,21 @@ output: html_document
 <div class="profile-header">
   <img src="photo_833527.jpg" alt="Dany Mukesha">
   <h1></h1>
-  <p>Ph.D. Student in Bioinformatics at University of Côte d'Azur, Admitted Autumn 2023</p>
+  <p></p>
   <p><a href="https://www.linkedin.com/in/dany-mukesha">https://www.linkedin.com/in/dany-mukesha</a></p>
 </div>
 
 <div class="content">
+
+<div class="section">
+  <h2>Professional Experience</h2>
+  <ul>
+    <li>Bioinformatician, Université Côte d'Azur, 2023 – Present</li>
+    <li>Software Engineer, Accenture - Catenate Group, 2021 – 2023</li>
+    <li>Bioinformatician, University of Manchester, 2020 - 2021</li>
+    <li>Bioinformatician, Gemelli IRCCS, 2019 - 2020</li>
+  </ul>
+</div>
 
 <div class="section">
   <h2>Education & Certifications</h2>
@@ -97,10 +107,10 @@ output: html_document
 
 <div class="section">
   <h2>Contact Information</h2>
-  <p>Email: <a href="mailto:danymukesha@gmail.com">danymukesha@gmail.com</a></p>
+  <p>Email: <a href="mailto:kabandana-dany.mukesha@etu.univ-cotedazur.fr">kabandana-dany.mukesha@etu.univ-cotedazur.fr</a></p>
   <p>Department: Bioinformatics</p>
   <p>Position: Graduate</p>
-  <p>Mail Code: 00154</p>
+  <p>Mail Code: 06103</p>
   <p>ORCID: <a href="https://orcid.org/0009-0001-9514-751X">0009-0001-9514-751X</a></p>
 </div>
 
