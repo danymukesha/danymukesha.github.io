@@ -77,7 +77,7 @@ output: html_document
   <img src="photo_833527.jpg" alt="Dany Mukesha">
   <h1></h1>
   <p></p>
-  <p><a href="https://www.linkedin.com/in/dany-mukesha">https://www.linkedin.com/in/dany-mukesha</a></p>
+  <!--p><a href="https://www.linkedin.com/in/dany-mukesha">https://www.linkedin.com/in/dany-mukesha</a> (hibernated)</p-->
 </div>
 
 <div class="content">
@@ -102,7 +102,7 @@ output: html_document
 
 <div class="section">
   <h2>Personal Interests</h2>
-  <p>Basketball, MMA</p>
+  <p>Basketball</p>
 </div>
 
 <div class="section">
