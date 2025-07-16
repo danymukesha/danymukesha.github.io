@@ -1,0 +1,78 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+\moderncvstyle{casual}
+\moderncvcolor{blue}
+
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.75]{geometry}
+
+\makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
+
+% personal data
+\name{Dany}{Mukesha} % Placeholder name, as no name is provided in the document
+\title{Curriculum Vitae}
+% \quote{Tel: +39~366~709~5692 \\
+% Email: \emaillink{danymukesha@gmail.com} 
+% }
+\address{Rome}{Italy}
+\phone[mobile]{+39~366~709~5692} 
+\email{danymukesha@gmail.com} % Placeholder email, as none is provided
+\homepage{danymukesha.github.io}
+\social[linkedin]{dany-mukesha} % Placeholder social link
+\social[github]{danymukesha}
+
+\begin{document}
+\makecvtitle
+
+\section{Education}
+\cventry{2023--2026}{Doctor of Philosophy, Bioinformatics}{Université Côte d'Azur}{Nice}{France}{}
+\cventry{2020--2023}{Master's degree, Bioinformatics}{University of Rome Tor Vergata}{Rome}{Italy}{}
+\cventry{2016--2019}{Bachelor's degree, Bioinformatics}{Sapienza Università di Roma}{Rome}{Italy}{}
+
+\section{Experience}
+\cventry{March 2022 --
+Sept. 2023}{Bioinformatician}{Wayne State University}{Detroit, Michigan}{United States}{Performed computational analysis for gene expression data to evaluate the effects of environmental contaminants, such as plasticizers, on cardiovascular risk and disease.}
+
+\cventry{Dec. 2021 -- Jan. 2023}{Software Engineer}{Accenture SpA}{Rome, Latium}{Italy}{Supported the implementation of software solutions for companies to conduct business operations and processes at enterprise-level.}
+
+\cventry{Sept. 2020 -- August 2021}{Bioinformatician}{The University of Manchester}{Manchester, England}{UK}{Integrated epigenetic data and GWAS results to identify causal variants, genes, and cell types in Rheumatoid Arthritis (RA). Updated credible SNPs list through analysis of unrelated samples, assuming linkage disequilibrium between marker alleles and disease susceptibility alleles, improving RA genetic risk mapping.}
+
+\cventry{Jan. 2021 -- Dec. 2021}{TIBCO Developer}{Catenate Group}{Rome, Latium}{Italy}{Developed and maintained TIBCO applications, including setting up Mashery API with security protocols. Created BusinessWorks processes for UAT and monitored TIBCO EAI applications for billing and inventory synchronization.}
+
+\cventry{July 2020 -- Dec. 2020}{Bioinformatician}{Policlinico Agostino Gemelli IRCCS}{Rome, Latium}{Italy}{Performed transcriptomic analysis of ependymoma tumor samples, identifying Hub genes and key pathways through gene co-expression network analysis. Findings published in the International Journal of Molecular Sciences.}
+
+\cventry{Jan. 2019 -- Oct. 2019}{Bioinformatician}{Sapienza Università di Roma}{Rome, Latium}{Italy}{Conducted genomic analysis of Burkholderia cepacia complex (BCC) isolates to identify genetic mutations and classify phylogenetic subgroups, revealing distinct virulence factors and antibiotic resistance profiles associated with each subgroup.}
+\renewcommand{\refname}{Publications}
+\nocite{*}
+\bibliographystyle{chronological}
+\bibliography{publications}   
+
+\section{Software Contributions}
+\cvitem{2025}{\textbf{BioGA}: Bioinformatics Genetic Algorithm R package (v0.99.16). \newline 
+\url{https://bioconductor.org/packages/BioGA/}}
+
+\section{Other Publications}
+\cvitem{2021}{Servidei T, Meco D, Martini M, et al. \textit{The BET Inhibitor OTX015 Exhibits In Vitro and In Vivo Antitumor Activity in Pediatric Ependymoma Stem Cell Models}. \textbf{Int J Mol Sci}. 2021;22(4):1877. \url{https://doi.org/10.3390/ijms22041877} \newline
+Contribution: Performed correlation network analysis of large, high-dimensional datasets.}
+
+\section{Conferences and Awards}
+\cvitem{April 1–5, 2025}{Poster-Onsite at \textbf{AD/PD™ 2025} International Conference, Vienna, Austria. \newline 
+Topic: Metabolomic Signatures and Machine Learning Models for Distinguishing Alzheimer’s Disease and Dementia with Lewy Bodies.}
+\cvitem{March 5–9, 2024}{Poster-Onsite at \textbf{AD/PD™ 2024} International Conference, Lisbon, Portugal. \newline 
+Topic: Updated panel of genetic variants associated with multiple forms of neuro-degenerative diseases.}
+\cvitem{2023–2026}{\textbf{PhD Scholarship funded by European Union (EU) program} (France): \newline 
+Marie Skłodowska-Curie Actions (MSCA) Doctoral Network.}
+\cvitem{2016–2022}{\textbf{LazioDisco Scholarship of Merit} (Italy): \newline 
+Awarded for academic excellence during Bachelor's (2016–2019) and Master's (2020–2022) studies.}
+
+\section{Skills}
+\cvitem{\textbf{Bioinformatics}}{Genomics, transcriptomics, GWAS, gene co-expression network analysis}
+\cvitem{\textbf{Statistics/ML}}{Regression (Linear, Logistic, Mixed), Clustering (K-means, HCA), Neural Networks, Gaussian processes, Feature and Model Selection, PCA/ICA, LDA, KNN, RF, Bagging, Bayesian methods, CV, Meta-analysis, Text mining.}
+\cvitem{\textbf{Software-Dev.}}{Java microservices, Spring Boot, REST APIs, Angular, React}
+\cvitem{\textbf{DevOps \& Tools}}{Kubernetes, Linux, Bash scripting, network configuration, Git, Docker, Terraform, Jenkins, GitLab/GitHub, LDAP.}
+\cvdoubleitem{\textbf{Operations}}{Unix, Cloud, Containers}{\textbf{Programming}}{C++, Python/R, Java, Bash}
+\cvitem{\textbf{Databases}}{Oracle, PostgreSQL, MySQL}
+\cvitem{\textbf{Languages}}{English, Italian, French}
+
+\clearpage
+\end{document}
