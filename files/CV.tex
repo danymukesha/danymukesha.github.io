@@ -1,25 +1,44 @@
-\documentclass[11pt,a4paper,sans]{moderncv}
+% \documentclass[11pt,a4paper,sans]{moderncv}
+% \moderncvstyle{casual}
+% \moderncvcolor{blue}
+% \usepackage[utf8]{inputenc}
+% \usepackage[scale=0.75]{geometry}
+% \makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
+% % personal data
+% \name{Dany}{Mukesha} % Placeholder name, as no name is provided in the document
+% \title{Curriculum Vitae}
+% % \quote{Tel: +39~366~709~5692 \\
+% % Email: \emaillink{danymukesha@gmail.com} 
+% % }
+% \address{Rome}{Italy}
+% \phone[mobile]{+39~366~709~5692} 
+% \email{danymukesha@gmail.com} % Placeholder email, as none is provided
+% \homepage{danymukesha.github.io}
+% \social[linkedin]{dany-mukesha} % Placeholder social link
+% \social[github]{danymukesha}
 
-\moderncvstyle{casual}
+\documentclass[11pt,a4paper,sans]{moderncv} 
+\moderncvstyle{classic} % classic, causal, banking, oldstyle, fancy
 \moderncvcolor{blue}
-
-\usepackage[utf8]{inputenc}
+\usepackage{lipsum}
+\usepackage{soul}
 \usepackage[scale=0.75]{geometry}
-
 \makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
-
-% personal data
-\name{Dany}{Mukesha} % Placeholder name, as no name is provided in the document
 \title{Curriculum Vitae}
-% \quote{Tel: +39~366~709~5692 \\
-% Email: \emaillink{danymukesha@gmail.com} 
-% }
-\address{Rome}{Italy}
+\firstname{\textcolor{gray}{Dany}} 
+\familyname{Mukesha} 
+\address{00154 Roma RM, Italy}
 \phone[mobile]{+39~366~709~5692} 
 \email{danymukesha@gmail.com} % Placeholder email, as none is provided
 \homepage{danymukesha.github.io}
-\social[linkedin]{dany-mukesha} % Placeholder social link
-\social[github]{danymukesha}
+% \social[linkedin]{dany-mukesha} % Placeholder social link
+% \social[github]{danymukesha}
+
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} 
+\fancyfoot[C]{Page \thepage\ of \pageref{LastPage}}
 
 \begin{document}
 \makecvtitle
@@ -33,15 +52,15 @@
 \cventry{March 2022 --
 Sept. 2023}{Bioinformatician}{Wayne State University}{Detroit, Michigan}{United States}{Performed computational analysis for gene expression data to evaluate the effects of environmental contaminants, such as plasticizers, on cardiovascular risk and disease.}
 
-\cventry{Dec. 2021 -- Jan. 2023}{Software Engineer}{Accenture SpA}{Rome, Latium}{Italy}{Supported the implementation of software solutions for companies to conduct business operations and processes at enterprise-level.}
+\cventry{Dec. 2021 -- Jan. 2023}{Software Engineer}{Accenture SpA}{Rome}{Italy}{Supported the implementation of software solutions for companies to conduct business operations and processes at enterprise-level.}
 
 \cventry{Sept. 2020 -- August 2021}{Bioinformatician}{The University of Manchester}{Manchester, England}{UK}{Integrated epigenetic data and GWAS results to identify causal variants, genes, and cell types in Rheumatoid Arthritis (RA). Updated credible SNPs list through analysis of unrelated samples, assuming linkage disequilibrium between marker alleles and disease susceptibility alleles, improving RA genetic risk mapping.}
 
-\cventry{Jan. 2021 -- Dec. 2021}{TIBCO Developer}{Catenate Group}{Rome, Latium}{Italy}{Developed and maintained TIBCO applications, including setting up Mashery API with security protocols. Created BusinessWorks processes for UAT and monitored TIBCO EAI applications for billing and inventory synchronization.}
+\cventry{Jan. 2021 -- Dec. 2021}{TIBCO Developer}{Catenate Group}{Rome}{Italy}{Developed and maintained TIBCO applications, including setting up Mashery API with security protocols. Created BusinessWorks processes for UAT and monitored TIBCO EAI applications for billing and inventory synchronization.}
 
-\cventry{July 2020 -- Dec. 2020}{Bioinformatician}{Policlinico Agostino Gemelli IRCCS}{Rome, Latium}{Italy}{Performed transcriptomic analysis of ependymoma tumor samples, identifying Hub genes and key pathways through gene co-expression network analysis. Findings published in the International Journal of Molecular Sciences.}
+\cventry{July 2020 -- Dec. 2020}{Bioinformatician}{Policlinico Agostino Gemelli IRCCS}{Rome}{Italy}{Performed transcriptomic analysis of ependymoma tumor samples, identifying Hub genes and key pathways through gene co-expression network analysis. Findings published in the International Journal of Molecular Sciences.}
 
-\cventry{Jan. 2019 -- Oct. 2019}{Bioinformatician}{Sapienza Università di Roma}{Rome, Latium}{Italy}{Conducted genomic analysis of Burkholderia cepacia complex (BCC) isolates to identify genetic mutations and classify phylogenetic subgroups, revealing distinct virulence factors and antibiotic resistance profiles associated with each subgroup.}
+\cventry{Jan. 2019 -- Oct. 2019}{Bioinformatician}{Sapienza Università di Roma}{Rome}{Italy}{Conducted genomic analysis of Burkholderia cepacia complex (BCC) isolates to identify genetic mutations and classify phylogenetic subgroups, revealing distinct virulence factors and antibiotic resistance profiles associated with each subgroup.}
 \renewcommand{\refname}{Publications}
 \nocite{*}
 \bibliographystyle{chronological}
@@ -56,6 +75,9 @@ Sept. 2023}{Bioinformatician}{Wayne State University}{Detroit, Michigan}{United 
 Contribution: Performed correlation network analysis of large, high-dimensional datasets.}
 
 \section{Conferences and Awards}
+\cvitem{July 27-30, 2025}{Poster-Online at \textbf{AAIC® 2025} International Conference, Toronto, Canada. \newline 
+Topic: Integrating \textit{APOE} Genotyping and Serum Metabolomics with Machine Learning to Distinguish Alzheimer’s Disease and Dementia with Lewy Bodies. }
+% Link: \href{https://postercors-2.s3.amazonaws.com/aaic2025.76133ac.NORMAL.pdf?AWSAccessKeyId=AKIAUZD55IF36XFKYK63&Expires=1753009943&Signature=b6Pa4O%2Bu5qZw2ekUF7hICMsY%2FF8%3D}{\color{cyan}Link to the File}}
 \cvitem{April 1–5, 2025}{Poster-Onsite at \textbf{AD/PD™ 2025} International Conference, Vienna, Austria. \newline 
 Topic: Metabolomic Signatures and Machine Learning Models for Distinguishing Alzheimer’s Disease and Dementia with Lewy Bodies.}
 \cvitem{March 5–9, 2024}{Poster-Onsite at \textbf{AD/PD™ 2024} International Conference, Lisbon, Portugal. \newline 
@@ -74,5 +96,6 @@ Awarded for academic excellence during Bachelor's (2016–2019) and Master's (20
 \cvitem{\textbf{Databases}}{Oracle, PostgreSQL, MySQL}
 \cvitem{\textbf{Languages}}{English, Italian, French}
 
+\label{LastPage}
 \clearpage
 \end{document}
