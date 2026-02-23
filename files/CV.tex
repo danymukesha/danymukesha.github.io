@@ -1,0 +1,197 @@
+%------------------------
+% Resume Template
+% Author : Dany Mukesha
+%------------------------
+
+\documentclass[a4paper,20pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE Dany Mukesha}} & Email: \href{mailto:danymukesha@gmail.com}{danymukesha@gmail.com}\\
+  \href{https://danymukesha.github.io}{Portfolio: danymukesha.github.io} & Mobile:~+39-366-709-5692 \\
+  % \href{https://github.com/danymukesha}{GitHub: ~~github.com/danymukesha} & \\
+  \href{https://linkedin.com/in/dany-mukesha}{LinkedIn: linkedin.com/in/dany-mukesha} & \\
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Université Côte d'Azur}{Nice, France}
+      {Ph.D, Bioinformatics}{Sept. 2023 -- July 2026 (Expected)}
+    \resumeSubheading
+      {University of Rome Tor Vergata}{Rome, Italy}
+      {MSc, Bioinformatics}{March 2020 -- July 2023}
+    \resumeSubheading
+      {Sapienza Università di Roma}{Rome, Italy}
+      {BSc, Bioinformatics}{Nov. 2016 -- Oct. 2019}
+  \resumeSubHeadingListEnd
+
+%-----------SKILLS-----------------
+\section{Skills}
+\resumeSubHeadingListStart
+  \resumeSubItem{Programming Languages}{Python, R, C++, Java, Bash, SQL}
+  \resumeSubItem{Bioinformatics}{Genomics, transcriptomics, metabolomics, proteomics, single-cell analysis}
+  \resumeSubItem{Machine Learning (ML)}{Regression, clustering, neural networks, Gaussian processes, feature selection, PCA/ICA, random forests, Bayesian methods, cross-validation}
+  \resumeSubItem{Reproducible Research}{Conda environments, GitHub workflow versioning, Jupyter notebooks, R Markdown}
+  \resumeSubItem{Tools \& Platforms}{Nextflow, Snakemake, Docker, Kubernetes, Git, HPC (Slurm/PBS), Linux, AWS, Azure}
+  \resumeSubItem{Databases}{PostgreSQL, MySQL, Oracle, MongoDB}
+  % \resumeSubItem{Data Standards \& Modeling}{Data modeling, metadata harmonization, biomedical ontologies (application-level), FAIR data principles}
+  % \resumeSubItem{Languages}{English (C2), Italian (C2), French (C2)}
+  \resumeSubItem{Languages (Spoken)}{English, Italian, French}
+\resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Université Côte d'Azur}{Nice, France}
+      {PhD Researcher}{Sept. 2023 -- Present}
+      \resumeItemListStart
+        \resumeItem{Biomarker Discovery}{Implement ML models integrating serum metabolomics, MRI, PET, and genetic data for early Alzheimer's detection using large-scale cohorts (such as ADNI:
+        % ADNI-1:
+        \href{https://clinicaltrials.gov/study/NCT00106899}{NCT00106899};
+        % ADNI-GO: 
+        \href{https://clinicaltrials.gov/study/NCT01078636}{NCT01078636}; 
+        % ADNI-2: 
+        \href{https://clinicaltrials.gov/study/NCT01231971}{NCT01231971};
+        % ADNI-3: 
+        % \href{https://clinicaltrials.gov/study/NCT02854033}{NCT02854033}; 
+        % ADNI-4: 
+        % \href{https://clinicaltrials.gov/study/NCT05617014}{NCT05617014}
+        etc.)}
+        \resumeItem{Multi-omics Integration}{Built pipeline for analyzing metabolomic and genomic data with 90\%+ classification accuracy for differential diagnosis between AD and Lewy body dementia}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Accenture Spa - Catenate Group}{Rome, Italy}
+      {Software Engineer}{Jan. 2021 -- Sept. 2023}
+      \resumeItemListStart
+        \resumeItem{Full-Stack Development}{Built Java microservices and Angular/React frontend applications for enterprise clients}
+        \resumeItem{DevOps}{Implemented CI/CD pipelines with Jenkins, Docker, Kubernetes; managed LDAP and network configurations}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Policlinico Agostino Gemelli IRCCS}{Rome, Italy}
+      {Bioinformatician}{July 2020 -- Dec. 2020}
+      \resumeItemListStart
+        \resumeItem{Transcriptomic Profiling}{Analyzed RNA-seq data from ependymoma tumors; results published in International Journal of Molecular Sciences}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------International Experience-----------------
+\section{International Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Wayne State University}{Detroit, MI, USA (Remote)}
+      {Bioinformatician}{March 2022 -- Sept. 2023}
+      \resumeItemListStart
+        \resumeItem{Toxicogenomics}{Performed gene expression (RNA-seq) analysis of environmental toxins on cardiovascular health}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {The University of Manchester}{Manchester, UK (Hybrid)}
+      {Bioinformatician}{Dec. 2020 -- Aug. 2021}
+      \resumeItemListStart
+        \resumeItem{Epigenetics \& GWAS}{Integrated epigenomic and GWAS datasets to study immune-related genetic risk architecture in Rheumatoid Arthritis}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------PUBLICATIONS-----------------
+\section{Selected Publications}
+\resumeSubHeadingListStart
+  \resumeSubItem{Journal Article}{Mukesha D, Firat H, Sacco G. Integrating large-scale serum metabolomics and APOE $\varepsilon$4 genotype for non-invasive Alzheimer's detection. \textit{medRxiv}. 2025; DOI: \href{https://doi.org/10.64898/2025.12.29.25343146}{10.64898/2025.12.29.25343146}}
+  \resumeSubItem{Journal Article}{Mukesha D, Sarter M, Dubray M, et al. Targeted serum metabolomic profiling and machine learning in Alzheimer's disease using ADDIA cohort. \textit{J Alzheimers Dis}. 2025; DOI: \href{https://doi.org/10.1177/13872877251378653}{10.1177/13872877251378653}}
+  \resumeSubItem{Conference}{Mukesha D, et al. Metabolomic signatures and ML models for distinguishing AD and dementia with Lewy bodies. \textit{AAIC}. 2025; DOI: \href{https://doi.org/10.1002/alz70863_110610}{10.1002/alz70863\_110610}}
+  \resumeSubItem{Book}{Mukesha D. \textit{R for Proteomics}: From QC to functional analysis. 2025. \href{https://lodiag-holocron.github.io/r4proteomics/}{Online}}
+  \resumeSubItem{Software}{Mukesha D. Scalable Genetic Algorithm Framework for High-Throughput Genomic Data. Zenodo. 2024}
+\resumeSubHeadingListEnd
+
+%-----------CONFERENCES & AWARDS-----------------
+\section{Conferences \& Awards}
+\resumeSubHeadingListStart
+  \resumeSubItem{AD/PD 2026}{Talk: Biofluid biomarkers differentiating Alzheimer's from Lewy body dementia. Copenhagen, Denmark}
+  \resumeSubItem{AAIC 2025}{Poster presentation. Toronto, Canada}
+  \resumeSubItem{AD/PD 2025}{Poster presentation. Vienna, Austria}
+  \resumeSubItem{Marie Curie PhD Scholarship}{EU Horizon 2020 (2023--2026)}
+  \resumeSubItem{LazioDisco Scholarship}{Academic merit scholarship (2016--2022)}
+\resumeSubHeadingListEnd
+
+% \pagestyle{fancy}
+% \fancyhf{}
+% \fancyfoot[R]{\footnotesize CV -- Last updated: 13 February 2026}
+% \renewcommand{\headrulewidth}{0pt}
+% \renewcommand{\footrulewidth}{0pt}
+
+
+\end{document}
